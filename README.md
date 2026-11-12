@@ -22,6 +22,7 @@ powershell -ExecutionPolicy Bypass -File .\bench.ps1
 
 ## Arquivos
 - `cv_openmp.c`: código-fonte
-- `dados.txt`: entrada (1000 pessoas, dados sintéticos)
+- `dados.txt`:    - `dados.txt`: entrada com 1000 pessoas (estatura e peso, separados por espaço). Dados sintéticos gerados pelo script abaixo.
+- `gerar_dados.py`: gera o `dados.txt` (semente fixa 42; requer numpy)
 - `bench.ps1` / `bench.csv`: script e resultados do benchmark
 - `relatorio_openmp.pdf`: relatório
